@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;1,200&display=swap');
+
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER SECTION STYLE 
+------------------------*/
+.header {
+    background-image: url('/images/banner/banner3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.half-header {
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.half-text {
+    margin: 190px 0;
+    color: white;
+    text-align: right;
+}
+
+.half-text h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 50px;
+}
+
+.half-text p {
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 17px;
+    color: #d3d3d3;
+}
+
+.btn {
+    background-color: white;
+    color: #005FAC;
+    padding: 8px 14px;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+/* Failure section 
+---------------------*/
+
+.half-width-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.half-width {
+    width: 50%;
+    padding: 120px 130px;
+}
+
+.half-width img {
+    width: 369px;
+    height: 470.3px;
+}
+
+.half-width h2 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.half-width p {
+    color: #444343;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.half-width .fail-list .fail {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 0px;
+
+}
+
+.half-width .fail-list .fail img {
+    width: 24px;
+    height: 24px;
+}
+
+.half-width .fail-list .fail p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 7px;
+    padding-top: 10px;
+    margin-left: 10px;
+    color: #444343;
+}
+
+/* my plan section start
+---------------------- */
+.my-plan h5 {
+    font-family: 'Work Sans';
+    text-align: center;
+    font-weight: 1000;
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.my-plan-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.my-plan-container .plan-div h4 {
+
+    font-family: 'Work Sans';
+    font-weight: 900;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.my-plan-container .plan-div p {
+    color: #737272;
+}
+
+/* motivation section start 
+======================== */
+.motivation {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin: 100px 0;
+    height: 150px;
+    border-radius: 10px;
+    background-image:
+        linear-gradient(to right, rgba(3, 45, 255, 0.99), rgba(216, 202, 247, 0.31));
+}
+
+.motivation h2 {
+    text-align: left;
+    /* letter-spacing: 0.23ch; */
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+    background: linear-gradient(to right, #ffffff,
+            #f9ffffd6, #f8fdff, #fffffff9, #ef0000);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+
+/* my skill section design */
+.my-skill-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.card {
+
+    border-left: 4px solid saddlebrown;
+    border-image: linear-gradient(to bottom, #0475ef, #078572) 1;
+
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    width: 25%;
+    margin: 20px 0px;
+    padding: 10px 5px;
+}
+
+.card h2 {
+    color: #4a4646;
+}
+
+.card p {
+    color: #a9a3a3;
+    font-size: 14px;
+}
+
+
+/* footer section start 
+-------------------------*/
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+
+}
+
+.footer-detials {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 0
+}
+
+
+.contact {
+    width: 50%;
+}
+
+.contact h3 {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 10px;
+
+}
+
+.contact p {
+    font-family: sans-serif;
+    color: #c2bebe;
+    margin-bottom: 10px;
+}
+
+.contact-img img {
+    margin-top: 10px;
+    width: 30px;
+    margin-right: 5px;
+}
+
+.subscribe {
+    width: 30%;
+}
+
+.subscribe h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.subscribe input[type="text"] {
+    display: block;
+    width: 200px;
+    padding: 10px 10px;
+    margin-bottom: 5px 0;
+    background-color: black;
+    border: 0.1px solid white;
+    width: 70%;
+
+}
+
+.subscribe button {
+    background: #005FAC;
+    color: #ffffff;
+    padding: 8px 14px;
+    font-weight: 400;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 20px;
+}
