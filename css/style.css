@@ -10,7 +10,7 @@
 /* HEADER SECTION STYLE 
 ------------------------*/
 .header {
-    background-image: url(/images/banner/banner3.png);
+    background-image: url('/images/banner/banner3.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -158,8 +158,7 @@
     margin: 100px 0;
     height: 150px;
     border-radius: 10px;
-    background-image:
-        linear-gradient(to right, rgba(3, 45, 255, 0.99), rgba(216, 202, 247, 0.31));
+    background-image: linear-gradient(to right, rgba(3, 45, 255, 0.99), rgba(216, 202, 247, 0.31));
 }
 
 .motivation h2 {
